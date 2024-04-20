@@ -1,7 +1,7 @@
 import zipfile
 
 zip_file = "A.zip"  # Replace "example.zip" with the name of your zip file
-password_file = "C://Users/dena8/Desktop/New folder/important-list.txt"
+password_file = "C://Users/test/Desktop/New folder/important-list.txt"
 
 with open(password_file, 'r', encoding='utf-8') as file:
     password_list = [line.strip() for line in file]
