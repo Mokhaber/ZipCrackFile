@@ -1,6 +1,6 @@
 import zipfile
 
-zip_file = "A.zip"  # Replace "example.zip" with the name of your zip file
+zip_file = "A.zip"
 password_file = "C://Users/test/Desktop/New folder/important-list.txt"
 
 with open(password_file, 'r', encoding='utf-8') as file:
